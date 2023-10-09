@@ -29,6 +29,6 @@ const students = [
   },
 ];
 
-const filteredStudents = null; // Replace null and add .filter code here
+const filteredStudents = students.filter((student) => student.isOnline && student.mark >=75);
 
 console.log(filteredStudents);
